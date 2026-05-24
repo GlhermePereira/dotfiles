@@ -1,0 +1,27 @@
+# Pacotes terminal - Terminal, shell e ferramentas CLI
+# Instalação: apt install $(cat packages/terminal.txt | tr '\n' ' ')
+
+# Terminal
+alacritty
+
+# Shell
+zsh
+zsh-syntax-highlighting
+zsh-autosuggestions
+
+# Utilitários CLI moderno
+fzf
+ripgrep
+fd-find
+bat
+jq
+
+# Clipboard
+xclip
+xsel
+
+# Sistema
+htop
+btop
+unzip
+zip

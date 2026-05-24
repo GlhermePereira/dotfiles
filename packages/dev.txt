@@ -1,0 +1,31 @@
+# Pacotes dev - Desenvolvimento web e programação
+# Instalação: apt install $(cat packages/dev.txt | tr '\n' ' ')
+
+# Editor
+neovim
+
+# Node.js e npm (via nvm melhor)
+# nodejs  - Remover, usar nvm
+# npm     - Remover, usar nvm
+
+# Python
+python3
+python3-pip
+python3-venv
+python-is-python3
+
+# Ferramentas git
+git-flow
+git-crypt
+
+# Docker (opcional)
+# docker.io  - Comentado, instalar manualmente se precisar
+# docker-compose
+
+# Compiladores e linguagens
+gcc
+g++
+make
+
+# Debuggers
+gdb

@@ -1,0 +1,70 @@
+! ~/.Xresources - X11 Resources
+! Used by terminal emulators, xterm, and other X applications
+
+! Alacritty não usa Xresources diretamente, mas estes são úteis para xterm
+! e para compatibilidade com outros aplicativos
+
+! ===== XTERM =====
+xterm*faceName: JetBrainsMono Nerd Font Mono
+xterm*faceSize: 11
+
+! ===== COLORS =====
+! Nord theme colors (para compatibilidade)
+
+! Background/Foreground
+*background: #2E3440
+*foreground: #ECEFF4
+
+! Black
+*color0:     #3B4252
+*color8:     #4C566A
+
+! Red
+*color1:     #BF616A
+*color9:     #BF616A
+
+! Green
+*color2:     #A3BE8C
+*color10:    #A3BE8C
+
+! Yellow
+*color3:     #EBCB8B
+*color11:    #EBCB8B
+
+! Blue
+*color4:     #81A1C1
+*color12:    #81A1C1
+
+! Magenta
+*color5:     #B48EAD
+*color13:    #B48EAD
+
+! Cyan
+*color6:     #88C0D0
+*color14:    #8FBCBB
+
+! White
+*color7:     #E5E9F0
+*color15:    #ECEFF4
+
+! ===== SCROLLBAR =====
+xterm*scrollBar: true
+xterm*rightScrollBar: true
+xterm*jumpScroll: true
+xterm*multiScroll: true
+
+! ===== FONTS =====
+*faceName: JetBrainsMono Nerd Font Mono:size=11
+*font: -xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso10646-1
+
+! ===== CURSOR =====
+Xcursor.size: 24
+Xcursor.theme: Adwaita
+
+! ===== DPI =====
+! Customize conforme seu monitor
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.rgba: rgb

@@ -1,0 +1,31 @@
+# Pacotes opcional - Nice-to-have e GUI pesadas
+# Instalação: apt install $(cat packages/optional.txt | tr '\n' ' ')
+
+# Launcher
+rofi
+
+# Screenshots e gravação
+flameshot
+ffmpeg
+
+# Imagem
+imagemagick
+
+# Mídia
+playerctl
+pulseaudio-utils
+
+# Fontes
+fonts-noto
+fonts-noto-color-emoji
+fonts-fira-code
+
+# Utilitários adicionais
+stow
+
+# Nota: EVITAR
+# ❌ network-manager-gnome  (GUI pesada, use nmcli)
+# ❌ thunar                 (file manager GUI)
+# ❌ pavucontrol            (GUI pesada, use pactl/amixer)
+# ❌ tmux                   (desnecessário com zsh moderno)
+# ❌ brightnessctl          (específico de hardware)

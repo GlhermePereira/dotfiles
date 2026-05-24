@@ -1,0 +1,21 @@
+# Pacotes desktop - Window manager e composição
+# Instalação: apt install $(cat packages/desktop.txt | tr '\n' ' ')
+
+# Display server
+xorg
+xserver-xorg-input-libinput
+
+# Window manager
+i3
+i3blocks
+
+# Composição
+picom
+
+# Gerenciador de tela
+feh
+
+# Utilidades X11
+xclip
+xsel
+xdotool

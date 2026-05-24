@@ -1,0 +1,40 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/nord.toml"
+]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding = { x = 10, y = 10 }
+opacity = 1.0
+
+[scrolling]
+history = 10000
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = "Beam"
+unfocused_hollow = false
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"

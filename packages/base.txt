@@ -1,0 +1,16 @@
+# Pacotes base - Essenciais do sistema
+# Instalação: apt install $(cat packages/base.txt | tr '\n' ' ')
+
+# VCS e networking
+git
+curl
+wget
+
+# Build tools
+build-essential
+pkg-config
+
+# Utilitários
+sudo
+man-db
+xdg-utils

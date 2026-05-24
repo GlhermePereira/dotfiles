@@ -1,0 +1,66 @@
+# .gitignore - Ignorar arquivos desnecessários no repositório
+
+# Cache do sistema
+.cache/
+.history
+.local/share/*
+!.local/share/wallpapers
+
+# Arquivos temporários
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+.vimlog
+
+# Estado de aplicações (deve ser ignorado)
+.config/fontconfig/cache/
+.config/ibus/
+.config/dconf/
+.config/evolution/
+.config/chromium/
+
+# Oh-My-Zsh (pode ter código de máquina)
+.oh-my-zsh/
+.zsh_history
+.zsh_sessions/
+
+# nvm (não versionar, usar setup script)
+.nvm/
+.nvmrc.local
+
+# pyenv (não versionar, usar setup script)
+.pyenv/
+
+# Variáveis de ambiente locais
+.env
+.env.local
+.envrc
+
+# Continue (IDE config pessoal)
+.continue/
+
+# Wallpapers são assets, não config
+wallpapers/*.jpg
+wallpapers/*.png
+!wallpapers/.gitkeep
+
+# Diretórios efêmeros
+.npm/
+.yarn/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

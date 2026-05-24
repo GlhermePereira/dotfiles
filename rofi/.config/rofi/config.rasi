@@ -1,0 +1,153 @@
+/*  Rofi color theme
+    Generated with rofi-theme-selector
+*/
+
+* {
+    selected-normal-foreground:  rgba ( 255, 255, 255, 100 % );
+    foreground:                  rgba ( 211, 211, 211, 100 % );
+    normal-foreground:           @foreground;
+    alternate-normal-background: rgba ( 26, 26, 26, 100 % );
+    red:                         rgba ( 220, 50, 47, 100 % );
+    selected-urgent-foreground:  rgba ( 255, 255, 255, 100 % );
+    blue:                        rgba ( 38, 139, 210, 100 % );
+    urgent-foreground:           rgba ( 204, 204, 204, 100 % );
+    alternate-urgent-background: rgba ( 75, 0, 130, 100 % );
+    active-foreground:           rgba ( 51, 209, 122, 100 % );
+    lightbg:                     rgba ( 238, 238, 238, 100 % );
+    selected-active-foreground:  rgba ( 51, 209, 122, 100 % );
+    alternate-active-background: rgba ( 26, 26, 26, 100 % );
+    background:                  rgba ( 0, 0, 0, 85 % );
+    bordercolor:                 rgba ( 51, 51, 51, 100 % );
+    alternate-normal-foreground: @foreground;
+    normal-background:           rgba ( 0, 0, 0, 0 % );
+    selected-normal-background:  rgba ( 64, 64, 64, 100 % );
+    border-color:                @bordercolor;
+    spacing:                     2;
+    separatorcolor:              rgba ( 64, 64, 64, 100 % );
+    urgent-background:           rgba ( 75, 0, 130, 100 % );
+    alternate-urgent-foreground: @urgent-foreground;
+    selected-urgent-background:  rgba ( 130, 0, 179, 100 % );
+    alternate-active-foreground: @active-foreground;
+    selected-active-background:  rgba ( 26, 26, 26, 100 % );
+}
+
+#window {
+    background-color: @background;
+    border:           2;
+    border-color:     @border-color;
+    padding:          5;
+    width:            50%;
+    height:           50%;
+}
+
+#mainbox {
+    border:  0;
+    padding: 0;
+}
+
+#message {
+    border:       0;
+    border-color: @separatorcolor;
+    padding:      1px;
+}
+
+#textbox {
+    text-color: @foreground;
+}
+
+#listview {
+    border:       2px dash 0px 0px;
+    border-color: @separatorcolor;
+    padding:      2px 0px 0px;
+    spacing:      2px;
+    scrollbar:    true;
+}
+
+#element {
+    border:  0;
+    padding: 1px;
+}
+
+#element.normal.normal {
+    background-color: @normal-background;
+    text-color:       @normal-foreground;
+}
+
+#element.normal.urgent {
+    background-color: @urgent-background;
+    text-color:       @urgent-foreground;
+}
+
+#element.normal.active {
+    background-color: @active-background;
+    text-color:       @active-foreground;
+}
+
+#element.selected.normal {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+
+#element.selected.urgent {
+    background-color: @selected-urgent-background;
+    text-color:       @selected-urgent-foreground;
+}
+
+#element.selected.active {
+    background-color: @selected-active-background;
+    text-color:       @selected-active-foreground;
+}
+
+#element.alternate.normal {
+    background-color: @alternate-normal-background;
+    text-color:       @alternate-normal-foreground;
+}
+
+#element.alternate.urgent {
+    background-color: @alternate-urgent-background;
+    text-color:       @alternate-urgent-foreground;
+}
+
+#element.alternate.active {
+    background-color: @alternate-active-background;
+    text-color:       @alternate-active-foreground;
+}
+
+#scrollbar {
+    width:        4px;
+    border:       0;
+    handle-color: @active-foreground;
+    handle-width: 8px;
+    padding:      0;
+}
+
+#sidebar {
+    border:       2px dash 0px 0px;
+    border-color: @separatorcolor;
+}
+
+#button.selected {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+
+#inputbar {
+    spacing:    0;
+    text-color: @normal-foreground;
+    padding:    1px;
+}
+
+#case-indicator {
+    text-color: @urgent-foreground;
+}
+
+#entry {
+    text-color:       @normal-foreground;
+    background-color: rgba ( 0, 0, 0, 0 % );
+    spacing:          0;
+    text-align:       left;
+}
+
+#prompt {
+    text-color: @active-foreground;
+}
