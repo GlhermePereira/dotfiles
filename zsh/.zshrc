@@ -214,4 +214,3 @@ npx() {
     npx "$@"
 }
 
-. "$HOME/.local/bin/env"

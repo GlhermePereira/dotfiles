@@ -16,27 +16,28 @@ hide_edge_borders smart
 exec --no-startup-id picom
 exec --no-startup-id nm-applet
 exec_always --no-startup-id /usr/bin/autotiling
-exec --no-startup-id feh --bg-fill ~/wallpapers/1-city-view.png
-
+exec --no-startup-id feh --bg-fill ~/wallpapers/nord_valley.png
 bindsym $mod+Return exec alacritty
-bindsym $mod+d exec rofi -show drun
+bindsym $mod+space exec rofi -show drun
 bindsym $mod+q kill
+bindsym $mod+Shift+e exec thunar
+bindsym $mod+Shift+f exec chromium
 
-bindsym $mod+h focus left
-bindsym $mod+j focus down
-bindsym $mod+k focus up
-bindsym $mod+l focus right
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
 
-bindsym $mod+Shift+h move left
-bindsym $mod+Shift+j move down
-bindsym $mod+Shift+k move up
-bindsym $mod+Shift+l move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
 
 bindsym $mod+v split v
 bindsym $mod+b split h
 
 bindsym $mod+f fullscreen toggle
-bindsym $mod+space floating toggle
+bindsym $mod+o floating toggle
 
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
@@ -100,3 +101,4 @@ client.focused          #7aa2f7 #7aa2f7 #0f111a #7aa2f7
 client.focused_inactive #1a1b26 #1a1b26 #565f89 #1a1b26
 client.unfocused        #0f111a #0f111a #565f89 #0f111a
 client.urgent           #f7768e #f7768e #0f111a #f7768e
+
